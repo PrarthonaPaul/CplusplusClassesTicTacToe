@@ -1,15 +1,7 @@
 //
 //  GameState.cpp
 //  TicTacToe
-//
-//  Created by Tarek Abdelrahman on 2019-06-07.
-//  Modified by Tarek Abdelrahman on 2020-09-17.
-//  Copyright © 2019-2020 Tarek Abdelrahman. All rights reserved.
-//
-//  Permission is hereby granted to use this code in ECE244 at
-//  the University of Toronto. It is prohibited to distribute
-//  this code, either publicly or to third parties.
-//
+
 
 #include "globals.h"
 #include "GameState.h"
@@ -130,11 +122,6 @@ bool GameState:: get_turn(){
 void GameState:: set_turn(bool value){
     turn = value; 
 }
-
-// void GameState:: set_gameBoard(int row, int col, int value){
-//     if (moveValid)
-//         gameBoard[row][col] = value;
-// }
 
 // Get the game board value at the board location at row and col
 // This method checks that row, col and value are in range/valid
